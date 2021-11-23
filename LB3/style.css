@@ -1,0 +1,72 @@
+*{
+    font-family: 'Sen', sans-serif;
+}
+
+.resume{
+    background-color: whitesmoke;
+    display: flex;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0 50px;
+    height: 1420px;
+    width: 1240px;
+}
+
+.profile{
+    background-color: #c4c4c4;
+    box-sizing: border-box;
+    margin-right: 50px;
+    padding-top: 20px;
+    width: 33%;
+    background: url(img/bg.png) repeat-y #fc0;
+}
+
+.profile_contact h2, .profile_tech h2, .profile_soft h2{
+    margin: 20px 0 0 20px;
+}
+
+hr{
+    margin: 5px 0;
+}
+
+.contact{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.contact img{
+    margin-right: 8px;
+}
+
+.info{
+    box-sizing: border-box;
+    padding-top: 20px;
+    width: 60%;
+}
+
+mark{
+    background-color: transparent;
+    margin-left: 20px;
+    color: orange;
+    font-weight: bold;
+}
+
+h1{
+    margin: 10px 0;
+    font-size: 64px;
+}
+
+h2{
+    margin: 10px 0;
+    font-size: 48px;
+}
+
+.work_date{
+    opacity: 55%;
+}
+
+.avatar{
+    height: 400px;
+    width: 100%;
+}
